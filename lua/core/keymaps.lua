@@ -9,3 +9,5 @@ vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 -- vim.keymap.set("n", "+", "<C-a>")
 -- vim.keymap.set("n", "-", "<C-s>")
 
+-- Bind 'jj' to escape (going back to normal mode)
+vim.keymap.set('i', 'jj', '<Esc>' { noremap = true })
